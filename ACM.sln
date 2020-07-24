@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BL", "ACM.BL\ACM.BL.csproj", "{DE0EACAA-B107-4CD6-AF20-9CF4EB270D3C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{894A09DB-90DC-4CAD-AAE5-9323715E648A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BLTest", "Tests\ACM.BLTest\ACM.BLTest.csproj", "{321C4537-24AF-4258-BD75-7D7CF28EDD0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{DE0EACAA-B107-4CD6-AF20-9CF4EB270D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE0EACAA-B107-4CD6-AF20-9CF4EB270D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE0EACAA-B107-4CD6-AF20-9CF4EB270D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321C4537-24AF-4258-BD75-7D7CF28EDD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321C4537-24AF-4258-BD75-7D7CF28EDD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321C4537-24AF-4258-BD75-7D7CF28EDD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{321C4537-24AF-4258-BD75-7D7CF28EDD0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{321C4537-24AF-4258-BD75-7D7CF28EDD0D} = {894A09DB-90DC-4CAD-AAE5-9323715E648A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4AF355E1-586C-4F77-B5BA-6FCE7790E1E1}
